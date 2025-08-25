@@ -1,16 +1,18 @@
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Layout from './components/Layout.jsx';
-import Home from './pages/Home.jsx';
-import Aula1 from './pages/Aula1.jsx';
-import Aula2 from './pages/Aula2.jsx';
+import { Routes, Route } from "react-router-dom";
+import Login from "./pages/Login";
+import Home from "./pages/Home";
+import Aula1 from "./pages/Aula1";
+import Aula2 from "./pages/Aula2";
+import "./index.css"
+import "./App.css"
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layout><Home /></Layout>} />
-      <Route path="/aula1" element={<Layout><Aula1 /></Layout>} />
-      <Route path="/aula2" element={<Layout><Aula2 /></Layout>} />
+      <Route path="/" element={<Login />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/aula1" element={<Aula1 />} />
+      <Route path="/aula2" element={<Aula2 />} />
     </Routes>
   );
 }

@@ -1,5 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import "../App.css";
+import "../index.css";
 
 function Aula2() {
   const navigate = useNavigate();
@@ -8,7 +10,7 @@ function Aula2() {
       <h2 className="text-xl font-bold mb-4">Aula 2 - Introdução às Tecnologias</h2>
       <p className="mb-6">Conteúdo da Aula 2... (adicione aqui seus materiais)</p>
       <button
-        onClick={() => navigate('/')}
+        onClick={() => navigate('/home')}
         className="bg-gray-700 text-white px-4 py-2 rounded hover:bg-gray-900"
       >
         Voltar para Home
