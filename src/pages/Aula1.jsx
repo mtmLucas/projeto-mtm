@@ -18,6 +18,11 @@ function Aula1() {
       <VideoCard 
       titulo="Convergência. A quarta revolução industrial."
       urlDoVideo="https://www.youtube.com/embed/Us6OfvdpKeo"
+      />
+
+      <VideoCard 
+      titulo="Vocês está perdido no mundo, assim como eu? (Animação)"
+      urlDoVideo="https://www.youtube.com/watch?v=P48ZB1I6QPc"
       />   
 
 
