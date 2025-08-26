@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/projeto-mtm/static/css/main.e693078c.css",
+    "main.js": "/projeto-mtm/static/js/main.820404dc.js",
+    "index.html": "/projeto-mtm/index.html",
+    "main.e693078c.css.map": "/projeto-mtm/static/css/main.e693078c.css.map",
+    "main.820404dc.js.map": "/projeto-mtm/static/js/main.820404dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e693078c.css",
+    "static/js/main.820404dc.js"
+  ]
+}
