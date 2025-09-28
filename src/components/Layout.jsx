@@ -9,7 +9,7 @@ function Layout({ children }) {
       <header className="bg-blue-600 text-white p-4 shadow-md">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-xl font-bold">Lucas Schmidt - Tecnologias Digitais no Ensino da Matemática</h1>
-          <Link to="/" className="underline hover:text-blue-200">Home</Link>
+          <Link to="/home" className="underline hover:text-blue-200">Home</Link>
         </div>
       </header>
 
